@@ -12,7 +12,7 @@ import { ChatState } from "../context/ChatProvider";
 import ScrollableChat from "./ScrollableChat";
 import Lottie from "lottie-react";
 import animationData from "../animations/typing.json";
-import UpdateGroupChatModal from ".//UpdateGroupChatModal";
+import UpdateGroupChatModal from "./UpdateGroupChatModal";
 
 import io from "socket.io-client";
 const ENDPOINT = "https://lets-talk-mern.herokuapp.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
