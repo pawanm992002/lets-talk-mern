@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import UpdateGroupChatModal from ".//UpdateGroupChatModal";
 
 import io from "socket.io-client";
-const ENDPOINT = "https://git.heroku.com/lets-talk-mern.git"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://lets-talk-mern.herokuapp.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
